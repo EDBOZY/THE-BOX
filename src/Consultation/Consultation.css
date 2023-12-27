@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.consult{
+    height: 25vh;
+    width: 97vw;
+    padding: 20px;
+    background-image: url("./back.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-top: -20vh; */
+}
+.consult .container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    margin-top: 10vh;
+    margin-left: 5vh;
+}
+.consult span,h2,button{
+    color: white;
+
+}
+.consult .left{
+    flex: 1;
+}
+.consult .right{
+    flex: 1;
+
+}
+.consult button{
+    padding: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+}

@@ -1,0 +1,28 @@
+.img{
+    background-color: white;
+    height: 85vh;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+    gap: 1rem;
+    padding: 20px;
+    overflow: hidden;
+    background-image: url("./Hero\ \(1\).png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    color: black;
+    overflow-x: hidden;
+}
+.img p{
+    margin-left: 2vw;
+    margin-top: 38vh;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.img span{
+    font-size: 70px;
+    font-weight: bolder;
+    margin-left: 12vw;
+}

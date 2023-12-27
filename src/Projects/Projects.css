@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+}
+.page .container{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    height: 80vh;
+    width: 60vw;
+    margin-left: 20vh;
+    
+}
+.page .lef{
+    flex: 1;
+    margin-left: -30vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: x-large;
+    margin-top: 20vh;
+    font-weight: bold;
+}
+.page .right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 40vh; */
+}
+.page img{
+    height: 40vh;
+    width: 40vh;
+}
+.page .box{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* gap: 10px; */
+}
+.page .dod{
+    background-color: #2947A9;
+    height: 8vh;
+    width: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 1rem; */
+    padding: 10px;
+
+}
+.page .buttons{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 2rem;
+}
+.page button{
+    background-color: #2947A9;
+
+}
+.page h4{
+    font-weight: 100;
+}

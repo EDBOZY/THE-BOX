@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.experience{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.experience .container{
+    height: 90vh;
+    width: 90vw;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+
+}
+.experience .left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.experience .box{
+    height: 15vh;
+    width: 15vw;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 20px;
+}
+.experience .line{
+    height: 4vh;
+    width: 0.5vw;
+    background-color: orange;
+    border-radius: 4rem;
+}
+.experience h1{
+    font-size: 70px;
+    color: #2947A9;
+}
+.experience span{
+    font-size: 20px;
+}
+.experience .al{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+}
+.experience .right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: -20vw;
+    gap: 2rem;
+}
+/* .experience .one{
+    position: relative;
+    left: 20vh;
+    top: 1vh;
+}
+ */
+
+.experience .two,.four{
+    position: relative;
+    left: -30vh;
+}
+.experience p{
+    font-size: x-large;
+    width: 35vw;
+    color: lightgray;
+
+}
+.experience button{
+    background-color: #2947A9;
+    width: 10vw;
+    margin-left: -50vh;
+}
